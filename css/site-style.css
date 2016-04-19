@@ -1,0 +1,75 @@
+#center-panel {
+    width: 200px;
+    margin: 20px auto 20px auto;
+    z-index: 400;
+    display: none;
+    position: absolute;
+    top: 22px;
+    left: 100px;
+}
+
+#center-panel:hover {
+    z-index: 11;
+}
+
+#center-panel form {
+    background: #000;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#center-panel form:before {
+    content: url("../img/fon_triangle.png"); /* with class ModalCarrot ??*/
+    position: absolute; /*or absolute*/
+    z-index: 400; /*a number that's more than the modal box*/
+    left: -20px;
+    top: 0;
+}
+
+.form-block .but-form:hover {
+    background-color: #ccc;
+    box-shadow: none;
+    text-shadow: none;
+    color: #333333;
+}
+
+#center-panel form .form-block {
+    line-height: 23px;
+}
+
+#center-panel form .form-block span {
+    font-size: 12px;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+#center-panel input,
+#center-panel textarea {
+    text-shadow: none;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+#center-panel .button-section {
+    text-align: center;
+}
+
+#center-panel .button-section .but-form {
+    font-size: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #fff;
+    border: 1px;
+    border: none;
+    width: 120px !important;
+    cursor: auto;
+    box-shadow: none;
+    text-shadow: none;
+    margin: 20px 0;
+    text-align: center;
+}
