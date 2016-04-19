@@ -1,6 +1,27 @@
 Call Plugin by Antoscenco Vladimir
 
-Usage Plugin
+Requires at least: WordPress 4.5
+Tested up to: WordPress 4.5
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+A call plugin. To get calls from clients and put in database with option to delete and edit ( "Processed" , "Wait" )
+in Wordpress Admin Panel.
+
+== Installation ==
+
+1. In your admin panel, go to Plugins and click the Add New button.
+2. Click Upload and Choose File, then select the plugin's .zip file. Click Install Now.
+3. Click Activate to use your new theme right away.
+
+== Changelog ==
+
+= 1.0 - April 18 2016 =
+* Initial release
+
+== Usage Plugin ==
 
 1. By default plugin display 2 fields 'Name' and 'Phone'
 2. To display in template use the following code  <?php echo do_shortcode('[show_callbacks]'); ?>
