@@ -1,1 +1,6 @@
 Call Plugin by Antoscenco Vladimir
+
+Usage Plugin
+
+1. By default plugin display 2 fields 'Name' and 'Phone'
+2. To display in template use the following code  <?php echo do_shortcode('[show_callbacks]'); ?>
